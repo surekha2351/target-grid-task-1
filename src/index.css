@@ -1,0 +1,109 @@
+.app {
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 5px;
+  margin-right: 10px;
+  margin-bottom: 19px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #f9f9f9;
+  margin-bottom: 5px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.app {
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 8px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 70%;
+  transition: border-color 0.3s;
+}
+
+input[type="text"]:focus {
+  border-color: #6c63ff;
+}
+
+button {
+  padding: 8px 16px;
+  background-color: #6c63ff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-bottom: 20px;
+}
+
+button:hover {
+  background-color: #5754b0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #f9f9f9;
+  margin-bottom: 5px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+}
+
+label {
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.task-label {
+  display: inline-block;
+  padding: 2px 6px;
+  margin-right: 5px;
+  background-color: #f1f1f1;
+  border-radius: 3px;
+}
+
+.task-label.urgent {
+  background-color: #ff5757;
+  color: white;
+}
+
+.task-label.work {
+  background-color: #57a7ff;
+  color: white;
+}
+
+.task-label.personal {
+  background-color: #57ffb6;
+  color: white;
+}
